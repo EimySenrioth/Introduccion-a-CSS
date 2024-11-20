@@ -1,0 +1,29 @@
+body { /* selector de etiqueta */
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra, para que sea compatible en los 
+    distintos navegadores si no lo interpreta */
+    line-height: 1.5em;
+
+}
+header{
+    background: linear-gradient(to right, blue, red); /* degradado */
+    /* alinear texto*/
+    text-align: right; /* solo funciona en contenedores de bloques
+    y no en elementos en linea*/
+
+}
+.menu{
+    list-style: none;
+}
+.enlace{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+
+.enlace:hover{
+    color:aqua
+}
+
+.parrafo{
+    font-size: 20px;
+}
